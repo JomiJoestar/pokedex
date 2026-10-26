@@ -2,7 +2,7 @@
 
 **Autora:** Yomaira Pardo
 **Repositorio:** https://github.com/JomiJoestar/pokedex
-**URL de la aplicación:** [PEGA AQUÍ LA URL DE TU PÁGINA, por ejemplo https://algo.azurestaticapps.net]
+**URL de la aplicación:** [POKEDEX](https://gentle-rock-0b9771e1e.2.azurestaticapps.net/)]
 **Resultado de seguridad:** A+ en [securityheaders.com](https://securityheaders.com)
 
 Este documento explica cómo se compiló, se subió a GitHub y se publicó en Azure la aplicación PokeDex (proyecto Angular), incluyendo la configuración de los encabezados de seguridad y los problemas encontrados. La creación de la cuenta de Azure está en [README.md](README.md).
