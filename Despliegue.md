@@ -306,8 +306,13 @@ Después se subió el cambio con `git add .`, `git commit` y `git push`, y Azure
 
 ## 9. Auditorías adicionales (opcional)
 
-[Si hiciste el escaneo con SSL Labs u OWASP ZAP, describe aquí el resultado y agrega las capturas. Si no lo hiciste, borra esta sección.]
+Además del escaneo de encabezados, se analizó el sitio con [SSL Labs](https://www.ssllabs.com/ssltest/), que revisa el certificado HTTPS y la configuración de cifrado (TLS) del servidor.
 
+**Resultado:** calificación **A**.
+
+![Resultado de SSL Labs](capturas/34-certificado-ssl.png)
+
+El certificado HTTPS lo administra Azure Static Web Apps de forma automática, por lo que no requirió configuración manual.
 ---
 
 ## 10. Eliminación de recursos
