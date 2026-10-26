@@ -5,7 +5,7 @@
   },
   "globalHeaders": {
     "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
-    "Content-Security-Policy": "default-src 'self'; img-src 'self' data: https:; connect-src 'self' https://pokeapi.co; style-src 'self'; font-src 'self'; script-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'sha256-QmIi/LDJnOEYAO9CVS/+JVvnKMiVsY6fn0FVoHnkPfg='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://pokeapi.co https://beta.pokeapi.co; frame-ancestors 'none'; base-uri 'self'; form-action 'self'",
     "X-Frame-Options": "DENY",
     "X-Content-Type-Options": "nosniff",
     "Referrer-Policy": "no-referrer",
